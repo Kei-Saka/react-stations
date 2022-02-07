@@ -10,7 +10,8 @@ import './App.css'
 export const App = () => {
   return (
     <div>
-      <h2>Hello, world!</h2>
+      <header>Dogアプリ</header>
+      <h2></h2>
     </div>
   )
 }
