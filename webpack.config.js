@@ -54,7 +54,7 @@ module.exports = {
     historyApiFallback: true,
     compress: true,
     liveReload: isDevelopment,
-    port: 3000,
+    port: 8080,
   },
   plugins: [
     isDevelopment && new ReactRefreshWebpackPlugin(),
