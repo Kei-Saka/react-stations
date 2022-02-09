@@ -37,11 +37,11 @@ export const App = () => {
       );
   }
   return (
-    <div>
-      <header>Dogアプリ</header>
-      <p>犬の画像を表示するサイトです。</p>
-      <img src={dogUrl} />
-      <button onClick={handleClick}>更新</button>
+    <div className='container'>
+      <header className='header'>Dogアプリ</header>
+      <p className='siteInfo'>犬の画像を表示するサイトです。</p>
+      <img className='dogImage' src={dogUrl} />
+      <button className='updateButton' onClick={handleClick}>更新</button>
     </div>
   )
 }
