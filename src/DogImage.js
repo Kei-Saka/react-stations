@@ -1,7 +1,7 @@
 // DO NOT DELETE
 import * as React from "react";
 
-function DogImage(props) {
+export const DogImage = (props) => {
     return (
     <div>
         <img
@@ -12,5 +12,3 @@ function DogImage(props) {
     </div>
     )
 };
-
-export default DogImage;

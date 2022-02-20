@@ -1,9 +1,9 @@
 // DO NOT DELETE
 import * as React from "react";
 import { useState } from "react";
-import DogImage from './DogImage';
+import { DogImage } from './DogImage';
 
-const Description = (props) => {
+export const Description = (props) => {
     const [dogUrl, setDogUrl] = useState('https://images.dog.ceo/breeds/maltese/n02085936_2422.jpg');
     const handleClick = () => {
         fetch("https://dog.ceo/api/breeds/image/random")
@@ -30,4 +30,4 @@ const Description = (props) => {
     )
 };
 
-export default Description;
+
